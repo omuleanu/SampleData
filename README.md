@@ -1,3 +1,4 @@
+# Sample Data
 sample data for demos and tutorials
 
 ## Usage
@@ -11,5 +12,11 @@ using Omu.SampleData;
 use the sample data:
 ```
 var meals = Db.Meals;
-Db.Insert(new Meal { ... });
+
+Db.Insert(new Dinner { ... });
+
+Db.Update(dinner)
+
+Db.Delete<Dinner>(123)
+
 ```
